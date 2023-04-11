@@ -1,0 +1,13 @@
+CRITICAL - 2023-01-27 22:43:39 --> Undefined variable $menu
+in APPPATH\Views\layout\index.php on line 90.
+ 1 APPPATH\Views\layout\index.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'APPPATH\\Views\\layout\\index.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/index', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Seller/index', [], true)
+ 6 APPPATH\Controllers\CSellerList.php(16): view('Seller/index')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CSellerList->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSellerList))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

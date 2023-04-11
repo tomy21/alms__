@@ -1,0 +1,764 @@
+INFO - 2023-03-25 06:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 06:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 06:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 06:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 06:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 06:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 06:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 06:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 06:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 06:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 06:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 06:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 06:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 06:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 06:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 06:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 06:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 06:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 06:46:59 --> Undefined variable $idInbound
+in APPPATH\Views\Return\index.php on line 21.
+ 1 APPPATH\Views\Return\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idInbound', 'APPPATH\\Views\\Return\\index.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Return\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Return/index', [], true)
+ 5 APPPATH\Controllers\CReturn.php(16): view('Return/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CReturn->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-25 06:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 06:47:20 --> Undefined variable $data
+in APPPATH\Views\Return\index.php on line 26.
+ 1 APPPATH\Views\Return\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\Return\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Return\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Return/index', [], true)
+ 5 APPPATH\Controllers\CReturn.php(16): view('Return/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CReturn->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-25 06:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 06:50:44 --> Undefined variable $ekspedisi
+in APPPATH\Views\Return\index.php on line 38.
+ 1 APPPATH\Views\Return\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ekspedisi', 'APPPATH\\Views\\Return\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Return\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Return/index', [], true)
+ 5 APPPATH\Controllers\CReturn.php(23): view('Return/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CReturn->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-25 06:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 06:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 06:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 06:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 06:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 06:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 06:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 06:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 07:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 07:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 07:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 07:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 07:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 07:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 07:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 07:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 07:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 09:40:13 --> Undefined property: stdClass::$id_transaksi
+in APPPATH\Controllers\CReturn.php on line 138.
+ 1 APPPATH\Controllers\CReturn.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_transaksi', 'APPPATH\\Controllers\\CReturn.php', 138)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CReturn->addReturn()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-25 09:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 09:41:16 --> Undefined property: stdClass::$id_transaksi
+in APPPATH\Controllers\CReturn.php on line 140.
+ 1 APPPATH\Controllers\CReturn.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_transaksi', 'APPPATH\\Controllers\\CReturn.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CReturn->addReturn()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-25 09:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 09:45:00 --> Undefined property: stdClass::$update_resi
+in APPPATH\Controllers\CReturn.php on line 71.
+ 1 APPPATH\Controllers\CReturn.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$update_resi', 'APPPATH\\Controllers\\CReturn.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CReturn->dataAjax()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-25 09:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 09:45:08 --> Undefined property: stdClass::$update_resi
+in APPPATH\Controllers\CReturn.php on line 71.
+ 1 APPPATH\Controllers\CReturn.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$update_resi', 'APPPATH\\Controllers\\CReturn.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CReturn->dataAjax()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-25 09:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 09:45:26 --> Undefined property: stdClass::$update_resi
+in APPPATH\Controllers\CReturn.php on line 71.
+ 1 APPPATH\Controllers\CReturn.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$update_resi', 'APPPATH\\Controllers\\CReturn.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CReturn->dataAjax()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-25 09:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 09:46:30 --> Undefined property: stdClass::$customerName
+in APPPATH\Controllers\CReturn.php on line 91.
+ 1 APPPATH\Controllers\CReturn.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$customerName', 'APPPATH\\Controllers\\CReturn.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CReturn->dataAjax()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-25 09:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-25 09:49:12 --> mysqli_sql_exception: Unknown column 'tbl_customer.warehouse' in 'field list' in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *, `tbl_...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tbl_...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tbl_...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *, `tbl_...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MReturn.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CReturn.php(66): App\Models\MReturn->getDatatables()
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CReturn->dataAjax()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-25 09:49:12 --> Unknown column 'tbl_customer.warehouse' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *, `tbl_ekspedisi`.`ekspedisi` as `ekspedisiName`, `tbl_customer`.`warehouse` as `customerName`, `tbl_agen`.`nama_agen` as `namaAgen`
+FROM `tbl_return`
+JOIN `tbl_customer` ON `tbl_customer`.`id_customer`=`tbl_return`.`warehouse`
+JOIN `tbl_ekspedisi` ON `tbl_ekspedisi`.`id_ekspedisi` = `tbl_return`.`ekspedisi`
+JOIN `tbl_agen` ON `tbl_agen`.`id_agen` = `tbl_return`.`agen`
+ORDER BY `created_at` DESC
+ LIMIT 10', [], false)
+ 2 APPPATH\Models\MReturn.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CReturn.php(66): App\Models\MReturn->getDatatables()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CReturn->dataAjax()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-25 09:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-25 09:50:25 --> mysqli_sql_exception: Column 'created_at' in order clause is ambiguous in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *, `tbl_...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tbl_...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tbl_...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *, `tbl_...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MReturn.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CReturn.php(66): App\Models\MReturn->getDatatables()
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CReturn->dataAjax()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-25 09:50:25 --> Column 'created_at' in order clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *, `tbl_ekspedisi`.`ekspedisi` as `ekspedisiName`, `tbl_customer`.`desc_cust` as `customerName`, `tbl_agen`.`nama_agen` as `namaAgen`
+FROM `tbl_return`
+JOIN `tbl_customer` ON `tbl_customer`.`id_customer`=`tbl_return`.`warehouse`
+JOIN `tbl_ekspedisi` ON `tbl_ekspedisi`.`id_ekspedisi` = `tbl_return`.`ekspedisi`
+JOIN `tbl_agen` ON `tbl_agen`.`id_agen` = `tbl_return`.`agen`
+ORDER BY `created_at` DESC
+ LIMIT 10', [], false)
+ 2 APPPATH\Models\MReturn.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CReturn.php(66): App\Models\MReturn->getDatatables()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CReturn->dataAjax()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-25 09:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-25 09:52:09 --> mysqli_sql_exception: Column 'created_at' in order clause is ambiguous in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *, `tbl_...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tbl_...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tbl_...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *, `tbl_...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MReturn.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CReturn.php(66): App\Models\MReturn->getDatatables()
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CReturn->dataAjax()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-25 09:52:09 --> Column 'created_at' in order clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *, `tbl_ekspedisi`.`ekspedisi` as `ekspedisiName`, `tbl_customer`.`desc_cust` as `customerName`, `tbl_agen`.`nama_agen` as `namaAgen`, `tbl_ekspedisi`.`created_at` as `ekspedisiDate`, `tbl_customer`.`created_at` as `customerDate`, `tbl_agen`.`created_at` as `agenDate`
+FROM `tbl_return`
+JOIN `tbl_customer` ON `tbl_customer`.`id_customer`=`tbl_return`.`warehouse`
+JOIN `tbl_ekspedisi` ON `tbl_ekspedisi`.`id_ekspedisi` = `tbl_return`.`ekspedisi`
+JOIN `tbl_agen` ON `tbl_agen`.`id_agen` = `tbl_return`.`agen`
+ORDER BY `created_at` DESC
+ LIMIT 10', [], false)
+ 2 APPPATH\Models\MReturn.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CReturn.php(66): App\Models\MReturn->getDatatables()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CReturn->dataAjax()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-25 09:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-25 09:52:27 --> mysqli_sql_exception: Column 'created_at' in order clause is ambiguous in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *, `tbl_...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tbl_...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tbl_...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *, `tbl_...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MReturn.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CReturn.php(66): App\Models\MReturn->getDatatables()
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CReturn->dataAjax()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-25 09:52:27 --> Column 'created_at' in order clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *, `tbl_ekspedisi`.`ekspedisi` as `ekspedisiName`, `tbl_customer`.`desc_cust` as `customerName`, `tbl_agen`.`nama_agen` as `namaAgen`, `tbl_ekspedisi`.`created_at` as `ekspedisiDate`, `tbl_customer`.`created_at` as `customerDate`, `tbl_agen`.`created_at` as `agenDate`
+FROM `tbl_return`
+JOIN `tbl_customer` ON `tbl_customer`.`id_customer`=`tbl_return`.`warehouse`
+JOIN `tbl_ekspedisi` ON `tbl_ekspedisi`.`id_ekspedisi` = `tbl_return`.`ekspedisi`
+JOIN `tbl_agen` ON `tbl_agen`.`id_agen` = `tbl_return`.`agen`
+ORDER BY `created_at` DESC
+ LIMIT 10', [], false)
+ 2 APPPATH\Models\MReturn.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CReturn.php(66): App\Models\MReturn->getDatatables()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CReturn->dataAjax()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-25 09:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-25 09:53:15 --> mysqli_sql_exception: Column 'created_at' in order clause is ambiguous in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *, `tbl_...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tbl_...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tbl_...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *, `tbl_...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MReturn.php(62): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CReturn.php(66): App\Models\MReturn->getDatatables()
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CReturn->dataAjax()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-25 09:53:15 --> Column 'created_at' in order clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *, `tbl_ekspedisi`.`ekspedisi` as `ekspedisiName`, `tbl_customer`.`desc_cust` as `customerName`, `tbl_agen`.`nama_agen` as `namaAgen`, `tbl_ekspedisi`.`created_at` as `ekspedisiDate`, `tbl_customer`.`created_at` as `customerDate`, `tbl_agen`.`created_at` as `agenDate`
+FROM `tbl_return`
+JOIN `tbl_customer` ON `tbl_customer`.`id_customer`=`tbl_return`.`warehouse`
+JOIN `tbl_ekspedisi` ON `tbl_ekspedisi`.`id_ekspedisi` = `tbl_return`.`ekspedisi`
+JOIN `tbl_agen` ON `tbl_agen`.`id_agen` = `tbl_return`.`agen`
+ORDER BY `created_at` DESC
+ LIMIT 10', [], false)
+ 2 APPPATH\Models\MReturn.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CReturn.php(66): App\Models\MReturn->getDatatables()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CReturn->dataAjax()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-25 09:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-25 09:54:43 --> mysqli_sql_exception: Column 'created_at' in order clause is ambiguous in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *, `tbl_...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tbl_...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tbl_...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *, `tbl_...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MReturn.php(62): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CReturn.php(66): App\Models\MReturn->getDatatables()
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CReturn->dataAjax()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-25 09:54:43 --> Column 'created_at' in order clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *, `tbl_return`.`updated_at` as `returnOutDate`, `tbl_return`.`created_at` as `returnDate`, `tbl_ekspedisi`.`ekspedisi` as `ekspedisiName`, `tbl_customer`.`desc_cust` as `customerName`, `tbl_agen`.`nama_agen` as `namaAgen`, `tbl_ekspedisi`.`created_at` as `ekspedisiDate`, `tbl_customer`.`created_at` as `customerDate`, `tbl_agen`.`created_at` as `agenDate`
+FROM `tbl_return`
+JOIN `tbl_customer` ON `tbl_customer`.`id_customer`=`tbl_return`.`warehouse`
+JOIN `tbl_ekspedisi` ON `tbl_ekspedisi`.`id_ekspedisi` = `tbl_return`.`ekspedisi`
+JOIN `tbl_agen` ON `tbl_agen`.`id_agen` = `tbl_return`.`agen`
+ORDER BY `created_at` DESC
+ LIMIT 10', [], false)
+ 2 APPPATH\Models\MReturn.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CReturn.php(66): App\Models\MReturn->getDatatables()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CReturn->dataAjax()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-25 09:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-25 09:55:26 --> mysqli_sql_exception: Column 'created_at' in order clause is ambiguous in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *, `tbl_...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tbl_...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tbl_...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *, `tbl_...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MReturn.php(62): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CReturn.php(66): App\Models\MReturn->getDatatables()
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CReturn->dataAjax()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-25 09:55:26 --> Column 'created_at' in order clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *, `tbl_return`.`updated_at` as `returnOutDate`, `tbl_return`.`created_at` as `returnDate`, `tbl_ekspedisi`.`ekspedisi` as `ekspedisiName`, `tbl_customer`.`desc_cust` as `customerName`, `tbl_agen`.`nama_agen` as `namaAgen`
+FROM `tbl_return`
+JOIN `tbl_customer` ON `tbl_customer`.`id_customer`=`tbl_return`.`warehouse`
+JOIN `tbl_ekspedisi` ON `tbl_ekspedisi`.`id_ekspedisi` = `tbl_return`.`ekspedisi`
+JOIN `tbl_agen` ON `tbl_agen`.`id_agen` = `tbl_return`.`agen`
+ORDER BY `created_at` DESC
+ LIMIT 10', [], false)
+ 2 APPPATH\Models\MReturn.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CReturn.php(66): App\Models\MReturn->getDatatables()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CReturn->dataAjax()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-25 09:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-25 09:56:12 --> mysqli_sql_exception: Column 'created_at' in order clause is ambiguous in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *, `tbl_...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tbl_...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tbl_...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *, `tbl_...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MReturn.php(62): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CReturn.php(66): App\Models\MReturn->getDatatables()
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CReturn->dataAjax()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-25 09:56:12 --> Column 'created_at' in order clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *, `tbl_return`.`updated_at` as `returnOutDate`, `tbl_return`.`created_at` as `returnDate`, `tbl_ekspedisi`.`ekspedisi` as `ekspedisiName`, `tbl_customer`.`desc_cust` as `customerName`, `tbl_agen`.`nama_agen` as `namaAgen`
+FROM `tbl_return`
+JOIN `tbl_customer` ON `tbl_customer`.`id_customer`=`tbl_return`.`warehouse`
+JOIN `tbl_ekspedisi` ON `tbl_ekspedisi`.`id_ekspedisi` = `tbl_return`.`ekspedisi`
+JOIN `tbl_agen` ON `tbl_agen`.`id_agen` = `tbl_return`.`agen`
+ORDER BY `created_at` DESC
+ LIMIT 10', [], false)
+ 2 APPPATH\Models\MReturn.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CReturn.php(66): App\Models\MReturn->getDatatables()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CReturn->dataAjax()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-25 09:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-25 09:57:01 --> mysqli_sql_exception: Column 'created_at' in order clause is ambiguous in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *, `tbl_...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tbl_...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tbl_...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *, `tbl_...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MReturn.php(62): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CReturn.php(66): App\Models\MReturn->getDatatables()
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CReturn->dataAjax()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-25 09:57:01 --> Column 'created_at' in order clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *, `tbl_return`.`updated_at` as `returnOutDate`, `tbl_return`.`created_at` as `returnDate`, `tbl_ekspedisi`.`ekspedisi` as `ekspedisiName`, `tbl_customer`.`desc_cust` as `customerName`, `tbl_agen`.`nama_agen` as `namaAgen`
+FROM `tbl_return`
+JOIN `tbl_customer` ON `tbl_customer`.`id_customer`=`tbl_return`.`warehouse`
+JOIN `tbl_ekspedisi` ON `tbl_ekspedisi`.`id_ekspedisi` = `tbl_return`.`ekspedisi`
+JOIN `tbl_agen` ON `tbl_agen`.`id_agen` = `tbl_return`.`agen`
+ORDER BY `created_at` DESC
+ LIMIT 10', [], false)
+ 2 APPPATH\Models\MReturn.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CReturn.php(66): App\Models\MReturn->getDatatables()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CReturn->dataAjax()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-25 09:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-25 09:58:02 --> mysqli_sql_exception: Unknown column 'tbl_customer.warehouse' in 'field list' in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *, `tbl_...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tbl_...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tbl_...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *, `tbl_...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MReturn.php(62): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CReturn.php(66): App\Models\MReturn->getDatatables()
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CReturn->dataAjax()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-25 09:58:02 --> Unknown column 'tbl_customer.warehouse' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *, `tbl_ekspedisi`.`ekspedisi` as `ekspedisiName`, `tbl_customer`.`warehouse` as `customerName`, `tbl_agen`.`nama_agen` as `namaAgen`
+FROM `tbl_return`
+JOIN `tbl_customer` ON `tbl_customer`.`id_customer`=`tbl_return`.`warehouse`
+JOIN `tbl_ekspedisi` ON `tbl_ekspedisi`.`id_ekspedisi` = `tbl_return`.`ekspedisi`
+JOIN `tbl_agen` ON `tbl_agen`.`id_agen` = `tbl_return`.`agen`', [], false)
+ 2 APPPATH\Models\MReturn.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CReturn.php(66): App\Models\MReturn->getDatatables()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CReturn->dataAjax()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-25 09:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 09:58:31 --> Undefined property: stdClass::$returnDate
+in APPPATH\Controllers\CReturn.php on line 71.
+ 1 APPPATH\Controllers\CReturn.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$returnDate', 'APPPATH\\Controllers\\CReturn.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CReturn->dataAjax()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-25 09:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 09:58:57 --> Undefined property: stdClass::$returnDate
+in APPPATH\Controllers\CReturn.php on line 71.
+ 1 APPPATH\Controllers\CReturn.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$returnDate', 'APPPATH\\Controllers\\CReturn.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CReturn->dataAjax()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-25 09:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 09:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 09:59:28 --> Undefined property: stdClass::$customerName
+in APPPATH\Controllers\CReturn.php on line 91.
+ 1 APPPATH\Controllers\CReturn.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$customerName', 'APPPATH\\Controllers\\CReturn.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CReturn->dataAjax()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-25 09:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 10:12:57 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2753.
+ 1 SYSTEMPATH\Model.php(455): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\CReturn.php(162): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CReturn->hapusData()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-25 10:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-25 10:29:47 --> syntax error, unexpected variable "$json"
+in APPPATH\Controllers\CReturn.php on line 188.
+ 1 SYSTEMPATH\Router\Router.php(506): CodeIgniter\Router\AutoRouter->getRoute('CReturn/index')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('CReturn/index')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('CReturn/index')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-25 10:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-25 10:40:08 --> mysqli_sql_exception: Unknown column 'tbl_customer.warehouse' in 'field list' in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *, `tbl_...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tbl_...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tbl_...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *, `tbl_...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MReturn.php(96): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CReturn.php(60): App\Models\MReturn->tampilDataOut()
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CReturn->tableReturn()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-25 10:40:08 --> Unknown column 'tbl_customer.warehouse' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *, `tbl_ekspedisi`.`ekspedisi` as `ekspedisiName`, `tbl_customer`.`warehouse` as `customerName`, `tbl_agen`.`nama_agen` as `namaAgen`
+FROM `tbl_return`
+JOIN `tbl_customer` ON `tbl_customer`.`id_customer`=`tbl_return`.`warehouse`
+JOIN `tbl_ekspedisi` ON `tbl_ekspedisi`.`id_ekspedisi` = `tbl_return`.`ekspedisi`
+JOIN `tbl_agen` ON `tbl_agen`.`id_agen` = `tbl_return`.`agen`
+WHERE `desc` = :desc:', [...], false)
+ 2 APPPATH\Models\MReturn.php(96): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CReturn.php(60): App\Models\MReturn->tampilDataOut()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CReturn->tableReturn()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-25 10:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-25 10:40:15 --> mysqli_sql_exception: Unknown column 'tbl_customer.warehouse' in 'field list' in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *, `tbl_...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tbl_...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tbl_...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *, `tbl_...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MReturn.php(96): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CReturn.php(60): App\Models\MReturn->tampilDataOut()
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CReturn->tableReturn()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-25 10:40:15 --> Unknown column 'tbl_customer.warehouse' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *, `tbl_ekspedisi`.`ekspedisi` as `ekspedisiName`, `tbl_customer`.`warehouse` as `customerName`, `tbl_agen`.`nama_agen` as `namaAgen`
+FROM `tbl_return`
+JOIN `tbl_customer` ON `tbl_customer`.`id_customer`=`tbl_return`.`warehouse`
+JOIN `tbl_ekspedisi` ON `tbl_ekspedisi`.`id_ekspedisi` = `tbl_return`.`ekspedisi`
+JOIN `tbl_agen` ON `tbl_agen`.`id_agen` = `tbl_return`.`agen`
+WHERE `desc` = :desc:', [...], false)
+ 2 APPPATH\Models\MReturn.php(96): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CReturn.php(60): App\Models\MReturn->tampilDataOut()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CReturn->tableReturn()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CReturn))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-25 10:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:41:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:41:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 10:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 11:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 11:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 11:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 11:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 11:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 11:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 11:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 11:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 11:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 11:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 11:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 11:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 11:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 11:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-25 12:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-25 12:03:35 --> mysqli_sql_exception: Column 'code_outbound' cannot be null in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Model.php(729): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\WEBSITE\tms_logicrew\app\Controllers\COutbound.php(210): CodeIgniter\Model->insert(Array)
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\COutbound->simpanOutbound()
+#9 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#13 {main}
+CRITICAL - 2023-03-25 12:03:35 --> Column 'code_outbound' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_nooutbound` (`code_outbound`, `qty`, `created_at`, `updated_at`) VALUES (:code_outbound:, :qty:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\COutbound.php(210): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\COutbound->simpanOutbound()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

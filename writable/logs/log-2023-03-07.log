@@ -1,0 +1,852 @@
+INFO - 2023-03-07 06:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 06:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 14:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 14:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 14:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-07 14:50:29 --> mysqli_sql_exception: Unknown column 'desc' in 'where clause' in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CSellerList.php(74): App\Models\MCustomer->getDatatables('Seller')
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CSellerList->dataAjax()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSellerList))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-07 14:50:29 --> Unknown column 'desc' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_customer`
+WHERE `desc` = :desc:
+ORDER BY `created_at` DESC
+ LIMIT 10', [...], false)
+ 2 APPPATH\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CSellerList.php(74): App\Models\MCustomer->getDatatables('Seller')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CSellerList->dataAjax()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSellerList))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-07 14:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 14:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-07 14:50:35 --> mysqli_sql_exception: Unknown column 'desc' in 'where clause' in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CWarehouseList.php(74): App\Models\MCustomer->getDatatables('Warehouse')
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CWarehouseList->dataAjax()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CWarehouseList))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-07 14:50:35 --> Unknown column 'desc' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_customer`
+WHERE `desc` = :desc:
+ORDER BY `created_at` DESC
+ LIMIT 10', [...], false)
+ 2 APPPATH\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CWarehouseList.php(74): App\Models\MCustomer->getDatatables('Warehouse')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CWarehouseList->dataAjax()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CWarehouseList))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-07 14:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 14:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-07 14:50:42 --> mysqli_sql_exception: Unknown column 'desc' in 'where clause' in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CWarehouseList.php(74): App\Models\MCustomer->getDatatables('Warehouse')
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CWarehouseList->dataAjax()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CWarehouseList))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-07 14:50:42 --> Unknown column 'desc' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_customer`
+WHERE `desc` = :desc:
+ORDER BY `created_at` DESC
+ LIMIT 10', [...], false)
+ 2 APPPATH\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CWarehouseList.php(74): App\Models\MCustomer->getDatatables('Warehouse')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CWarehouseList->dataAjax()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CWarehouseList))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-07 14:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 14:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-07 14:50:57 --> mysqli_sql_exception: Unknown column 'desc' in 'where clause' in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CWarehouseList.php(74): App\Models\MCustomer->getDatatables('Warehouse')
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CWarehouseList->dataAjax()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CWarehouseList))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-07 14:50:57 --> Unknown column 'desc' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_customer`
+WHERE `desc` = :desc:
+ORDER BY `created_at` DESC
+ LIMIT 10', [...], false)
+ 2 APPPATH\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CWarehouseList.php(74): App\Models\MCustomer->getDatatables('Warehouse')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CWarehouseList->dataAjax()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CWarehouseList))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-07 14:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 14:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 14:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 14:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-07 14:51:08 --> mysqli_sql_exception: Unknown column 'desc' in 'where clause' in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CSellerList.php(74): App\Models\MCustomer->getDatatables('Seller')
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CSellerList->dataAjax()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSellerList))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-07 14:51:08 --> Unknown column 'desc' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_customer`
+WHERE `desc` = :desc:
+ORDER BY `created_at` DESC
+ LIMIT 10', [...], false)
+ 2 APPPATH\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CSellerList.php(74): App\Models\MCustomer->getDatatables('Seller')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CSellerList->dataAjax()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSellerList))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-07 14:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 14:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-07 14:51:12 --> mysqli_sql_exception: Unknown column 'desc' in 'where clause' in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CWarehouseList.php(74): App\Models\MCustomer->getDatatables('Warehouse')
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CWarehouseList->dataAjax()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CWarehouseList))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-07 14:51:12 --> Unknown column 'desc' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_customer`
+WHERE `desc` = :desc:
+ORDER BY `created_at` DESC
+ LIMIT 10', [...], false)
+ 2 APPPATH\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CWarehouseList.php(74): App\Models\MCustomer->getDatatables('Warehouse')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CWarehouseList->dataAjax()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CWarehouseList))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-07 14:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 14:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 14:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 14:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-07 15:03:45 --> Undefined variable $menu
+in APPPATH\Views\layout\index.php on line 124.
+ 1 APPPATH\Views\layout\index.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'APPPATH\\Views\\layout\\index.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/index', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Inbound/listInbound', [], true)
+ 6 APPPATH\Controllers\CInbound.php(25): view('Inbound/listInbound')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CInbound->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CInbound))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-07 15:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-07 15:04:27 --> Undefined variable $menu
+in APPPATH\Views\layout\index.php on line 124.
+ 1 APPPATH\Views\layout\index.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'APPPATH\\Views\\layout\\index.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/index', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Inbound/listInbound', [], true)
+ 6 APPPATH\Controllers\CInbound.php(25): view('Inbound/listInbound')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CInbound->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CInbound))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-07 15:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-07 15:14:53 --> mysqli_sql_exception: Incorrect table definition; there can be only one auto column and it must be defined as a key in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `t...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `t...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `t...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `t...')
+#4 D:\WEBSITE\tms_logicrew\app\Database\Migrations\2023-03-07-081115_TblNoinbound.php(36): CodeIgniter\Database\Forge->createTable('tbl_noinbound')
+#5 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\TblNoinbound->up()
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\WEBSITE\tms_logicrew\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+INFO - 2023-03-07 15:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-07 15:19:41 --> mysqli_sql_exception: Unknown column 'desc' in 'where clause' in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CSellerList.php(74): App\Models\MCustomer->getDatatables('Seller')
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CSellerList->dataAjax()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSellerList))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-07 15:19:41 --> Unknown column 'desc' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_customer`
+WHERE `desc` = :desc:
+ORDER BY `created_at` DESC
+ LIMIT 10', [...], false)
+ 2 APPPATH\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CSellerList.php(74): App\Models\MCustomer->getDatatables('Seller')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CSellerList->dataAjax()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSellerList))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-07 15:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-07 15:20:50 --> mysqli_sql_exception: Unknown column 'desc' in 'where clause' in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CSellerList.php(74): App\Models\MCustomer->getDatatables('Seller')
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CSellerList->dataAjax()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSellerList))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-07 15:20:50 --> Unknown column 'desc' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_customer`
+WHERE `desc` = :desc:
+ORDER BY `created_at` DESC
+ LIMIT 10', [...], false)
+ 2 APPPATH\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CSellerList.php(74): App\Models\MCustomer->getDatatables('Seller')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CSellerList->dataAjax()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSellerList))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-07 15:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-07 15:22:09 --> mysqli_sql_exception: Unknown column 'desc' in 'where clause' in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CSellerList.php(74): App\Models\MCustomer->getDatatables('Seller')
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CSellerList->dataAjax()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSellerList))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-07 15:22:09 --> Unknown column 'desc' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_customer`
+WHERE `desc` = :desc:
+ORDER BY `created_at` DESC
+ LIMIT 10', [...], false)
+ 2 APPPATH\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CSellerList.php(74): App\Models\MCustomer->getDatatables('Seller')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CSellerList->dataAjax()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSellerList))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-07 15:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-07 15:22:49 --> mysqli_sql_exception: Unknown column 'desc' in 'where clause' in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CSellerList.php(74): App\Models\MCustomer->getDatatables('Seller')
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CSellerList->dataAjax()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSellerList))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-07 15:22:49 --> Unknown column 'desc' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_customer`
+WHERE `desc` = :desc:
+ORDER BY `created_at` DESC
+ LIMIT 10', [...], false)
+ 2 APPPATH\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CSellerList.php(74): App\Models\MCustomer->getDatatables('Seller')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CSellerList->dataAjax()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSellerList))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-07 15:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-07 15:24:14 --> mysqli_sql_exception: Unknown column 'desc' in 'where clause' in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CSellerList.php(74): App\Models\MCustomer->getDatatables('Seller')
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CSellerList->dataAjax()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSellerList))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-07 15:24:14 --> Unknown column 'desc' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_customer`
+WHERE `desc` = :desc:
+ORDER BY `created_at` DESC
+ LIMIT 10', [...], false)
+ 2 APPPATH\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CSellerList.php(74): App\Models\MCustomer->getDatatables('Seller')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CSellerList->dataAjax()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSellerList))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-07 15:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-07 15:25:35 --> mysqli_sql_exception: Unknown column 'desc' in 'where clause' in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CSellerList.php(74): App\Models\MCustomer->getDatatables('Seller')
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CSellerList->dataAjax()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSellerList))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-07 15:25:35 --> Unknown column 'desc' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_customer`
+WHERE `desc` = :desc:
+ORDER BY `created_at`
+ LIMIT 10', [...], false)
+ 2 APPPATH\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CSellerList.php(74): App\Models\MCustomer->getDatatables('Seller')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CSellerList->dataAjax()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSellerList))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-07 15:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-07 15:25:39 --> mysqli_sql_exception: Unknown column 'desc' in 'where clause' in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CWarehouseList.php(74): App\Models\MCustomer->getDatatables('Warehouse')
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CWarehouseList->dataAjax()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CWarehouseList))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-07 15:25:39 --> Unknown column 'desc' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_customer`
+WHERE `desc` = :desc:
+ORDER BY `created_at`
+ LIMIT 10', [...], false)
+ 2 APPPATH\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CWarehouseList.php(74): App\Models\MCustomer->getDatatables('Warehouse')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CWarehouseList->dataAjax()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CWarehouseList))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-07 15:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-07 15:25:43 --> mysqli_sql_exception: Unknown column 'desc' in 'where clause' in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CSellerList.php(74): App\Models\MCustomer->getDatatables('Seller')
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CSellerList->dataAjax()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSellerList))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-07 15:25:43 --> Unknown column 'desc' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_customer`
+WHERE `desc` = :desc:
+ORDER BY `created_at`
+ LIMIT 10', [...], false)
+ 2 APPPATH\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CSellerList.php(74): App\Models\MCustomer->getDatatables('Seller')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CSellerList->dataAjax()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSellerList))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-07 15:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-07 15:25:54 --> mysqli_sql_exception: Unknown column 'desc' in 'where clause' in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CSellerList.php(74): App\Models\MCustomer->getDatatables('Seller')
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CSellerList->dataAjax()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSellerList))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-07 15:25:54 --> Unknown column 'desc' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_customer`
+WHERE `desc` = :desc:
+ORDER BY `created_at`
+ LIMIT 10', [...], false)
+ 2 APPPATH\Models\MCustomer.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CSellerList.php(74): App\Models\MCustomer->getDatatables('Seller')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CSellerList->dataAjax()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CSellerList))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-07 15:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 15:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-07 16:11:08 --> mysqli_sql_exception: Unknown column 'tbl_customer.id' in 'on clause' in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MInbound.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CInbound.php(46): App\Models\MInbound->tampilData()
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CInbound->tableInbound()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CInbound))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-07 16:11:08 --> Unknown column 'tbl_customer.id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_inbound`
+JOIN `tbl_customer` ON `tbl_customer`.`id`=`tbl_inbound`.`warehouse`', [], false)
+ 2 APPPATH\Models\MInbound.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CInbound.php(46): App\Models\MInbound->tampilData()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CInbound->tableInbound()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CInbound))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-07 16:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-07 16:11:23 --> mysqli_sql_exception: Unknown column 'tbl_customer.id' in 'on clause' in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MInbound.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CInbound.php(46): App\Models\MInbound->tampilData()
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CInbound->tableInbound()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CInbound))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-07 16:11:23 --> Unknown column 'tbl_customer.id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_inbound`
+JOIN `tbl_customer` ON `tbl_customer`.`id`=`tbl_inbound`.`warehouse`', [], false)
+ 2 APPPATH\Models\MInbound.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CInbound.php(46): App\Models\MInbound->tampilData()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CInbound->tableInbound()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CInbound))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-07 16:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-07 16:12:24 --> mysqli_sql_exception: Unknown column 'tbl_customer.id' in 'on clause' in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MInbound.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\CInbound.php(46): App\Models\MInbound->tampilData()
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\CInbound->tableInbound()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CInbound))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-07 16:12:24 --> Unknown column 'tbl_customer.id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_inbound`
+JOIN `tbl_customer` ON `tbl_customer`.`id`=`tbl_inbound`.`warehouse`', [], false)
+ 2 APPPATH\Models\MInbound.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\CInbound.php(46): App\Models\MInbound->tampilData()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CInbound->tableInbound()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CInbound))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-07 16:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 16:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 21:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 21:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 21:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 21:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 21:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 21:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 21:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 21:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 21:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 21:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 21:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 21:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 21:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 21:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 21:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 21:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 21:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 21:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-07 22:18:46 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\CWarehouseList.php on line 80.
+ 1 APPPATH\Controllers\CWarehouseList.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Controllers\\CWarehouseList.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CWarehouseList->dataAjax()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CWarehouseList))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-07 22:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-07 22:20:26 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\CWarehouseList.php on line 80.
+ 1 APPPATH\Controllers\CWarehouseList.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Controllers\\CWarehouseList.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CWarehouseList->dataAjax()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CWarehouseList))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-07 22:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-07 22:20:33 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\CWarehouseList.php on line 80.
+ 1 APPPATH\Controllers\CWarehouseList.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Controllers\\CWarehouseList.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CWarehouseList->dataAjax()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CWarehouseList))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-07 22:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-07 22:32:11 --> Call to undefined method App\Models\MNoInbound::idInbound
+in SYSTEMPATH\Model.php on line 841.
+ 1 APPPATH\Controllers\CInbound.php(74): CodeIgniter\Model->__call('idInbound', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CInbound->createNewInbound()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CInbound))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-07 22:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-07 22:34:33 --> Undefined property: stdClass::$id
+in APPPATH\Views\Inbound\index.php on line 24.
+ 1 APPPATH\Views\Inbound\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Views\\Inbound\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Inbound\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Inbound/index', [], true)
+ 5 APPPATH\Controllers\CInbound.php(76): view('Inbound/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CInbound->createNewInbound()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CInbound))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-07 22:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-07 22:35:22 --> Undefined property: stdClass::$id
+in APPPATH\Views\Inbound\tableList.php on line 38.
+ 1 APPPATH\Views\Inbound\tableList.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Views\\Inbound\\tableList.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Inbound\\tableList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Inbound/tableList', [], true)
+ 5 APPPATH\Controllers\CInbound.php(87): view('Inbound/tableList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CInbound->tableInbound()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CInbound))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-07 22:36:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-07 22:36:07 --> Undefined property: stdClass::$id
+in APPPATH\Views\Inbound\tableList.php on line 38.
+ 1 APPPATH\Views\Inbound\tableList.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Views\\Inbound\\tableList.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Inbound\\tableList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Inbound/tableList', [], true)
+ 5 APPPATH\Controllers\CInbound.php(87): view('Inbound/tableList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CInbound->tableInbound()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CInbound))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-07 22:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-07 22:36:16 --> Undefined property: stdClass::$id
+in APPPATH\Views\Inbound\tableList.php on line 38.
+ 1 APPPATH\Views\Inbound\tableList.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Views\\Inbound\\tableList.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Inbound\\tableList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Inbound/tableList', [], true)
+ 5 APPPATH\Controllers\CInbound.php(87): view('Inbound/tableList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CInbound->tableInbound()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CInbound))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-07 22:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-07 22:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

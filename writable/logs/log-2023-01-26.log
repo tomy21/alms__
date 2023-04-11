@@ -1,0 +1,59 @@
+ERROR - 2023-01-26 21:14:20 --> mysqli_sql_exception: Table 'tbl_transaksi' already exists in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `t...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `t...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `t...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `t...')
+#4 D:\WEBSITE\tms_logicrew\app\Database\Migrations\2023-01-26-141355_TblTransaksis.php(81): CodeIgniter\Database\Forge->createTable('tbl_transaksi')
+#5 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\TblTransaksis->up()
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\WEBSITE\tms_logicrew\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-01-26 21:14:35 --> mysqli_sql_exception: Table 'tbl_transaksi' already exists in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `t...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `t...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `t...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `t...')
+#4 D:\WEBSITE\tms_logicrew\app\Database\Migrations\2023-01-26-141355_TblTransaksis.php(81): CodeIgniter\Database\Forge->createTable('tbl_transaksi')
+#5 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\TblTransaksis->up()
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\WEBSITE\tms_logicrew\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-01-26 21:38:56 --> mysqli_sql_exception: Unknown table 'db_tmscrew.tbl_transaksis' in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DROP TABLE `tbl...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `tbl...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `tbl...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\Forge.php(637): CodeIgniter\Database\BaseConnection->query('DROP TABLE `tbl...')
+#4 D:\WEBSITE\tms_logicrew\app\Database\Migrations\2023-01-26-141355_TblTransaksis.php(86): CodeIgniter\Database\Forge->dropTable('tbl_transaksis')
+#5 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\TblTransaksis->down()
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(1)
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 D:\WEBSITE\tms_logicrew\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-01-26 21:39:13 --> mysqli_sql_exception: Unknown table 'db_tmscrew.tbl_transaksis' in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DROP TABLE `tbl...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `tbl...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `tbl...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\Forge.php(637): CodeIgniter\Database\BaseConnection->query('DROP TABLE `tbl...')
+#4 D:\WEBSITE\tms_logicrew\app\Database\Migrations\2023-01-26-141355_TblTransaksis.php(86): CodeIgniter\Database\Forge->dropTable('tbl_transaksis')
+#5 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\TblTransaksis->down()
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 D:\WEBSITE\tms_logicrew\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}

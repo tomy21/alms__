@@ -1,0 +1,555 @@
+INFO - 2023-03-15 06:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 06:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:10:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-15 12:15:17 --> mysqli_sql_exception: Column 'code_sorting' cannot be null in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Model.php(729): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\WEBSITE\tms_logicrew\app\Controllers\COutbound.php(129): CodeIgniter\Model->insert(Array)
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\COutbound->addOutbound()
+#9 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#13 {main}
+CRITICAL - 2023-03-15 12:15:17 --> Column 'code_sorting' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_outbound` (`code_outbound`, `code_sorting`, `ekspedisi`, `resi_out`, `warehouse`, `agen`, `status`, `created_at`, `updated_at`) VALUES (:code_outbound:, :code_sorting:, :ekspedisi:, :resi_out:, :warehouse:, :agen:, :status:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\COutbound.php(129): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\COutbound->addOutbound()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-15 12:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-15 12:17:09 --> Attempt to read property "code_sorting" on null
+in APPPATH\Controllers\COutbound.php on line 123.
+ 1 APPPATH\Controllers\COutbound.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "code_sorting" on null', 'APPPATH\\Controllers\\COutbound.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\COutbound->addOutbound()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-15 12:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-15 12:17:40 --> Attempt to read property "code_sorting" on null
+in APPPATH\Controllers\COutbound.php on line 121.
+ 1 APPPATH\Controllers\COutbound.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "code_sorting" on null', 'APPPATH\\Controllers\\COutbound.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\COutbound->addOutbound()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-15 12:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-15 12:24:21 --> Undefined variable $z
+in APPPATH\Controllers\COutbound.php on line 133.
+ 1 APPPATH\Controllers\COutbound.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $z', 'APPPATH\\Controllers\\COutbound.php', 133)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\COutbound->addOutbound()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-15 12:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 12:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 13:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 13:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 13:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-15 13:49:39 --> mysqli_sql_exception: Column 'status' in where clause is ambiguous in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_out...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_out...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_out...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_out...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MOutbound.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\COutbound.php(106): App\Models\MOutbound->tampilDataListModal(1)
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\COutbound->tableOutbound()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-15 13:49:39 --> Column 'status' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_outbound`.*, `tbl_customer`.`nama_customer` as `namaCustomer`, `tbl_ekspedisi`.`ekspedisi` as `namaEkspedisi`
+FROM `tbl_outbound`
+JOIN `tbl_customer` ON `tbl_customer`.`id_customer`=`tbl_outbound`.`warehouse`
+JOIN `tbl_ekspedisi` ON `tbl_ekspedisi`.`id_ekspedisi`=`tbl_outbound`.`ekspedisi`
+WHERE `status` = :status:', [...], false)
+ 2 APPPATH\Models\MOutbound.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\COutbound.php(106): App\Models\MOutbound->tampilDataListModal(1)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\COutbound->tableOutbound()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-15 13:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 13:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-15 13:49:58 --> mysqli_sql_exception: Column 'status' in where clause is ambiguous in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_out...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_out...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_out...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_out...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MOutbound.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\COutbound.php(106): App\Models\MOutbound->tampilDataListModal(1)
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\COutbound->tableOutbound()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-15 13:49:58 --> Column 'status' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_outbound`.*, `tbl_customer`.`nama_customer` as `namaCustomer`, `tbl_ekspedisi`.`ekspedisi` as `namaEkspedisi`
+FROM `tbl_outbound`
+JOIN `tbl_customer` ON `tbl_customer`.`id_customer`=`tbl_outbound`.`warehouse`
+JOIN `tbl_ekspedisi` ON `tbl_ekspedisi`.`id_ekspedisi`=`tbl_outbound`.`ekspedisi`
+WHERE `status` = :status:', [...], false)
+ 2 APPPATH\Models\MOutbound.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\COutbound.php(106): App\Models\MOutbound->tampilDataListModal(1)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\COutbound->tableOutbound()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-15 13:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 13:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-15 13:50:52 --> mysqli_sql_exception: Column 'status' in where clause is ambiguous in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_out...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_out...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_out...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_out...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MOutbound.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\COutbound.php(106): App\Models\MOutbound->tampilDataListModal(1)
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\COutbound->tableOutbound()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-15 13:50:52 --> Column 'status' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_outbound`.*, `tbl_customer`.`nama_customer` as `namaCustomer`, `tbl_customer`.`status` as `statusCust`, `tbl_ekspedisi`.`ekspedisi` as `namaEkspedisi`
+FROM `tbl_outbound`
+JOIN `tbl_customer` ON `tbl_customer`.`id_customer`=`tbl_outbound`.`warehouse`
+JOIN `tbl_ekspedisi` ON `tbl_ekspedisi`.`id_ekspedisi`=`tbl_outbound`.`ekspedisi`
+WHERE `status` = :status:', [...], false)
+ 2 APPPATH\Models\MOutbound.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\COutbound.php(106): App\Models\MOutbound->tampilDataListModal(1)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\COutbound->tableOutbound()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-15 13:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 13:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-15 13:51:48 --> mysqli_sql_exception: Column 'status' in where clause is ambiguous in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_out...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_out...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_out...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_out...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MOutbound.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\COutbound.php(106): App\Models\MOutbound->tampilDataListModal(1)
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\COutbound->tableOutbound()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-15 13:51:48 --> Column 'status' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_outbound`.*, `tbl_customer`.`nama_customer` as `namaCustomer`, `tbl_customer`.`status` as `statusCust`, `tbl_ekspedisi`.`ekspedisi` as `namaEkspedisi`
+FROM `tbl_outbound`
+JOIN `tbl_customer` ON `tbl_customer`.`id_customer`=`tbl_outbound`.`warehouse`
+JOIN `tbl_ekspedisi` ON `tbl_ekspedisi`.`id_ekspedisi`=`tbl_outbound`.`ekspedisi`
+WHERE `status` = :status:', [...], false)
+ 2 APPPATH\Models\MOutbound.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\COutbound.php(106): App\Models\MOutbound->tampilDataListModal(1)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\COutbound->tableOutbound()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-15 14:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 14:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-15 14:03:02 --> mysqli_sql_exception: Column 'status' in where clause is ambiguous in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_out...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_out...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_out...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_out...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MOutbound.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\COutbound.php(106): App\Models\MOutbound->tampilDataListModal(1)
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\COutbound->tableOutbound()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-15 14:03:02 --> Column 'status' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_outbound`.*, `tbl_customer`.`nama_customer` as `namaCustomer`, `tbl_customer`.`status` as `statusCust`, `tbl_ekspedisi`.`ekspedisi` as `namaEkspedisi`
+FROM `tbl_outbound`
+JOIN `tbl_customer` ON `tbl_customer`.`id_customer`=`tbl_outbound`.`warehouse`
+JOIN `tbl_ekspedisi` ON `tbl_ekspedisi`.`id_ekspedisi`=`tbl_outbound`.`ekspedisi`
+WHERE `status` = :status:', [...], false)
+ 2 APPPATH\Models\MOutbound.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\COutbound.php(106): App\Models\MOutbound->tampilDataListModal(1)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\COutbound->tableOutbound()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-15 14:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 14:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-15 14:05:32 --> mysqli_sql_exception: Column 'status' in where clause is ambiguous in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_out...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_out...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_out...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_out...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MOutbound.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\COutbound.php(106): App\Models\MOutbound->tampilDataListModal(1)
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\COutbound->tableOutbound()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-15 14:05:32 --> Column 'status' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_outbound`.*, `tbl_outbound`.`status` as `statusOut`, `tbl_customer`.`nama_customer` as `namaCustomer`, `tbl_customer`.`status` as `statusCust`, `tbl_ekspedisi`.`ekspedisi` as `namaEkspedisi`
+FROM `tbl_outbound`
+JOIN `tbl_customer` ON `tbl_customer`.`id_customer`=`tbl_outbound`.`warehouse`
+JOIN `tbl_ekspedisi` ON `tbl_ekspedisi`.`id_ekspedisi`=`tbl_outbound`.`ekspedisi`
+WHERE `status` = :status:', [...], false)
+ 2 APPPATH\Models\MOutbound.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\COutbound.php(106): App\Models\MOutbound->tampilDataListModal(1)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\COutbound->tableOutbound()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-15 14:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 14:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-15 14:07:47 --> mysqli_sql_exception: Unknown column 'statusOut' in 'where clause' in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_out...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_out...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_out...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_out...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MOutbound.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\COutbound.php(106): App\Models\MOutbound->tampilDataListModal(1)
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\COutbound->tableOutbound()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-15 14:07:47 --> Unknown column 'statusOut' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_outbound`.*, `tbl_outbound`.`status` as `statusOut`, `tbl_customer`.`nama_customer` as `namaCustomer`, `tbl_customer`.`status` as `statusCust`, `tbl_ekspedisi`.`ekspedisi` as `namaEkspedisi`
+FROM `tbl_outbound`
+JOIN `tbl_customer` ON `tbl_customer`.`id_customer`=`tbl_outbound`.`warehouse`
+JOIN `tbl_ekspedisi` ON `tbl_ekspedisi`.`id_ekspedisi`=`tbl_outbound`.`ekspedisi`
+WHERE `statusOut` = :statusOut:', [...], false)
+ 2 APPPATH\Models\MOutbound.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\COutbound.php(106): App\Models\MOutbound->tampilDataListModal(1)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\COutbound->tableOutbound()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-15 14:08:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 14:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-15 14:08:13 --> mysqli_sql_exception: Unknown column 'statusOut' in 'where clause' in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_out...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_out...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_out...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_out...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MOutbound.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\COutbound.php(106): App\Models\MOutbound->tampilDataListModal(1)
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\COutbound->tableOutbound()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-15 14:08:13 --> Unknown column 'statusOut' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_outbound`.*, `tbl_outbound`.`status` AS `statusOut`, `tbl_customer`.`nama_customer` as `namaCustomer`, `tbl_customer`.`status` as `statusCust`, `tbl_ekspedisi`.`ekspedisi` as `namaEkspedisi`
+FROM `tbl_outbound`
+JOIN `tbl_customer` ON `tbl_customer`.`id_customer`=`tbl_outbound`.`warehouse`
+JOIN `tbl_ekspedisi` ON `tbl_ekspedisi`.`id_ekspedisi`=`tbl_outbound`.`ekspedisi`
+WHERE `statusOut` = :statusOut:', [...], false)
+ 2 APPPATH\Models\MOutbound.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\COutbound.php(106): App\Models\MOutbound->tampilDataListModal(1)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\COutbound->tableOutbound()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-15 14:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 14:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-15 14:10:55 --> mysqli_sql_exception: Unknown column 'statusOut' in 'where clause' in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_out...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_out...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_out...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_out...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MOutbound.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\COutbound.php(106): App\Models\MOutbound->tampilDataListModal(1)
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\COutbound->tableOutbound()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-15 14:10:55 --> Unknown column 'statusOut' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_outbound`.*, `tbl_outbound`.`status` AS `statusOut`, `tbl_customer`.`nama_customer` AS `namaCustomer`, `tbl_customer`.`status` AS `statusCust`, `tbl_ekspedisi`.`ekspedisi` AS `namaEkspedisi`
+FROM `tbl_outbound`
+JOIN `tbl_customer` ON `tbl_customer`.`id_customer`=`tbl_outbound`.`warehouse`
+JOIN `tbl_ekspedisi` ON `tbl_ekspedisi`.`id_ekspedisi`=`tbl_outbound`.`ekspedisi`
+WHERE `statusOut` = :statusOut:', [...], false)
+ 2 APPPATH\Models\MOutbound.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\COutbound.php(106): App\Models\MOutbound->tampilDataListModal(1)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\COutbound->tableOutbound()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-15 14:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 14:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-15 14:12:11 --> mysqli_sql_exception: Unknown column 'statusOut' in 'where clause' in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_out...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_out...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_out...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_out...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MOutbound.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\COutbound.php(106): App\Models\MOutbound->tampilDataListModal(1)
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\COutbound->tableOutbound()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-15 14:12:11 --> Unknown column 'statusOut' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_outbound`.*, `tbl_outbound`.`status` AS `statusOut`, `tbl_customer`.`nama_customer` AS `namaCustomer`, `tbl_customer`.`status` AS `statusCust`, `tbl_ekspedisi`.`ekspedisi` AS `namaEkspedisi`
+FROM `tbl_outbound`
+JOIN `tbl_customer` ON `tbl_customer`.`id_customer`=`tbl_outbound`.`warehouse`
+JOIN `tbl_ekspedisi` ON `tbl_ekspedisi`.`id_ekspedisi`=`tbl_outbound`.`ekspedisi`
+WHERE `statusOut` = :statusOut:', [...], false)
+ 2 APPPATH\Models\MOutbound.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\COutbound.php(106): App\Models\MOutbound->tampilDataListModal(1)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\COutbound->tableOutbound()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-15 14:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 14:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-15 14:14:59 --> mysqli_sql_exception: Unknown column 'statusOut' in 'where clause' in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_out...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_out...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_out...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_out...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MOutbound.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\COutbound.php(106): App\Models\MOutbound->tampilDataListModal(1)
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\COutbound->tableOutbound()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-15 14:14:59 --> Unknown column 'statusOut' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_outbound`.*, `tbl_outbound`.`status` AS `statusOut`, `tbl_customer`.`nama_customer` AS `namaCustomer`, `tbl_customer`.`status` AS `statusCust`, `tbl_ekspedisi`.`ekspedisi` AS `namaEkspedisi`
+FROM `tbl_outbound`
+JOIN `tbl_customer` ON `tbl_customer`.`id_customer`=`tbl_outbound`.`warehouse`
+JOIN `tbl_ekspedisi` ON `tbl_ekspedisi`.`id_ekspedisi`=`tbl_outbound`.`ekspedisi`
+WHERE `statusOut` = :statusOut:', [...], false)
+ 2 APPPATH\Models\MOutbound.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\COutbound.php(106): App\Models\MOutbound->tampilDataListModal(1)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\COutbound->tableOutbound()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-15 14:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 14:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-15 14:15:36 --> mysqli_sql_exception: Column 'status' in where clause is ambiguous in D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_out...', 0)
+#1 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_out...')
+#2 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_out...')
+#3 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_out...', Array, false)
+#4 D:\WEBSITE\tms_logicrew\app\Models\MOutbound.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\tms_logicrew\app\Controllers\COutbound.php(106): App\Models\MOutbound->tampilDataListModal(1)
+#6 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\COutbound->tableOutbound()
+#7 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+#8 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\tms_logicrew\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\tms_logicrew\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\WEBSITE\\tms_...')
+#11 {main}
+CRITICAL - 2023-03-15 14:15:36 --> Column 'status' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_outbound`.*, `tbl_customer`.`nama_customer` AS `namaCustomer`, `tbl_customer`.`status` AS `statusCust`, `tbl_ekspedisi`.`ekspedisi` AS `namaEkspedisi`
+FROM `tbl_outbound`
+JOIN `tbl_customer` ON `tbl_customer`.`id_customer`=`tbl_outbound`.`warehouse`
+JOIN `tbl_ekspedisi` ON `tbl_ekspedisi`.`id_ekspedisi`=`tbl_outbound`.`ekspedisi`
+WHERE `status` = :status:', [...], false)
+ 2 APPPATH\Models\MOutbound.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\COutbound.php(106): App\Models\MOutbound->tampilDataListModal(1)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\COutbound->tableOutbound()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-15 14:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 14:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-15 14:16:03 --> Undefined property: stdClass::$resi
+in APPPATH\Views\Outbound\tableOutbound.php on line 18.
+ 1 APPPATH\Views\Outbound\tableOutbound.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$resi', 'APPPATH\\Views\\Outbound\\tableOutbound.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Outbound\\tableOutbound.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Outbound/tableOutbound', [], true)
+ 5 APPPATH\Controllers\COutbound.php(109): view('Outbound/tableOutbound', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\COutbound->tableOutbound()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-15 14:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 14:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-15 14:16:34 --> Undefined property: stdClass::$no_resi
+in APPPATH\Views\Outbound\tableOutbound.php on line 18.
+ 1 APPPATH\Views\Outbound\tableOutbound.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$no_resi', 'APPPATH\\Views\\Outbound\\tableOutbound.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Outbound\\tableOutbound.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Outbound/tableOutbound', [], true)
+ 5 APPPATH\Controllers\COutbound.php(109): view('Outbound/tableOutbound', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\COutbound->tableOutbound()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-15 14:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 14:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-15 14:17:01 --> Undefined property: stdClass::$statusOut
+in APPPATH\Views\Outbound\tableOutbound.php on line 21.
+ 1 APPPATH\Views\Outbound\tableOutbound.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$statusOut', 'APPPATH\\Views\\Outbound\\tableOutbound.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Outbound\\tableOutbound.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Outbound/tableOutbound', [], true)
+ 5 APPPATH\Controllers\COutbound.php(109): view('Outbound/tableOutbound', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\COutbound->tableOutbound()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-15 14:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 14:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 14:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 14:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 14:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 14:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-15 14:17:59 --> Undefined variable $code_sorting
+in APPPATH\Views\Outbound\tableOutbound.php on line 19.
+ 1 APPPATH\Views\Outbound\tableOutbound.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $code_sorting', 'APPPATH\\Views\\Outbound\\tableOutbound.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Outbound\\tableOutbound.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Outbound/tableOutbound', [], true)
+ 5 APPPATH\Controllers\COutbound.php(109): view('Outbound/tableOutbound', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\COutbound->tableOutbound()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-15 14:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 14:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 14:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 14:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 14:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 14:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 14:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 14:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 14:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 14:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 14:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 14:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 14:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 14:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 15:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 15:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 15:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 15:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 15:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 15:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-15 15:47:11 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\MySQLi\Result given
+in APPPATH\Controllers\COutbound.php on line 172.
+ 1 APPPATH\Controllers\COutbound.php(172): count(Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\COutbound->simpanOutbound()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-15 15:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-15 15:47:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+in APPPATH\Controllers\COutbound.php on line 172.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\COutbound->simpanOutbound()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\COutbound))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-15 15:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 15:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 15:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 15:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 15:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 15:52:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
